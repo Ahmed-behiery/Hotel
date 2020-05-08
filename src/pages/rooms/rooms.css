@@ -1,0 +1,143 @@
+.rooms{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.rooms .sort{
+    display: flex;
+}
+
+.slider-box-sort{
+    padding: 0 !important;
+    
+}
+
+.rooms .sort:nth-child(even) .slider-box-sort{
+    order: 2;
+
+}
+.rooms .sort:nth-child(even) .text-box-sort{
+order: 1;
+
+}
+
+.rooms .sort:nth-child(odd) .slider-box-sort{
+order: 1;
+
+}
+.rooms .sort:nth-child(odd) .text-box-sort{
+order: 2;
+
+}
+.rooms .carousel .control-dots .dot{
+    outline: none;
+}
+
+.rooms .slider-box .boxi {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.rooms .slider-box  img {
+    width: 100%;
+    height: 100%;
+}
+.rooms .text-box{
+    padding: 180px 120px 80px;
+}
+.rooms .text-box p{
+    color: gray;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 2.5;
+    margin-bottom: 60px;
+
+
+}
+.rooms .text-box h2{
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+
+
+.rooms .text-box p.heading{
+    font-size: 14px;
+    color: grey;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 12px;
+    letter-spacing: 2px;
+
+}
+
+.rooms .text-box  .icons .icon{
+    display: inline-block;
+    text-align: center;
+    margin-right: 30px;
+}
+.rooms .text-box  .icons .icon i{
+    color: lightgray;
+}
+.rooms .tour-box .advan .icon p{
+    margin-top: 12px;
+
+}
+.rooms .text-box    button{
+    background-color: rgb(90, 84, 81);
+    color: white;
+    padding: 12px 30px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    border: 1px solid #F9AD81;
+
+}
+@media (max-width: 1200px) and (min-width: 992px){
+    .rooms .text-box{
+        padding: 100px 30px 10px;
+        font-size: 10px;
+    }
+    .rooms .text-box p.heading{
+        font-size: 142x;
+        font-weight: 600;
+        margin-bottom: 8px;
+        letter-spacing: 0px;
+    
+    }
+    .rooms .text-box    button{
+        background-color: rgb(90, 84, 81);
+        color: white;
+        padding: 8px 30px;
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-size: 17px;
+        border: 1px solid #F9AD81;
+    
+    }
+    
+}
+@media (max-width: 992px) {
+    .rooms .text-box{
+        padding: 30px 70px 50px;
+    }
+
+    .rooms .sort{
+        display: block;
+    }
+    
+}
+@media (min-width: 992px){
+    .rooms .text-box{
+        padding: 100px 30px 10px;
+
+    }
+    .rooms .text-box p{
+        line-height: 1.7;
+        margin-bottom: 20px;
+    
+    
+    }
+    .rooms .text-box h2{
+        margin-bottom: 25px;
+    }
+    
+}
+
+
+

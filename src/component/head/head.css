@@ -1,0 +1,157 @@
+.head{
+    background-image: url("/img/hero-bg.jpg");
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.head h1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 700;
+}
+.head .check{
+    min-width: 75%;
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.6);
+    padding: 40px 40px 50px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    z-index: 2;
+
+}
+.head .check h5{
+    margin-bottom: 30px;
+}
+.head .check p{
+    color: black;
+    font-weight: 600;
+}
+
+.head .check .from, 
+.head .check .to
+{
+    position: relative;
+    background-color: white;
+    padding: 20px 15px;
+}
+.head .check .from input,
+.head .check .to input{
+    width: 100%;
+    font-size: 12px;
+    padding: 10px 0px;
+    color: grey;
+    opacity: 0.5;
+    border: none;
+    border-bottom: 0.11px solid gray;
+}
+.head .check input[type="date"]::-webkit-datetime-edit-month-field {
+    padding: 5px;
+}
+input[type="date"]::-webkit-datetime-edit-day-field {
+    margin: 5px
+}
+input[type="date"]::-webkit-datetime-edit-year-field {
+    margin: 5px
+}
+
+.head .check input:focus{
+    outline-color: transparent;
+}
+
+.head .check img{
+    position: absolute;
+    right: 20px;
+    bottom: 58px
+}
+.head .check .family{
+    position: relative;
+    background-color: white;
+    padding: 22px 30px;
+    overflow: hidden;
+}
+.head .check .family .data{
+    float: left;
+    width: 25%;
+    position: relative;
+    
+}
+.head .check .family .data:not(:last-child){
+
+    margin-right: 12.5%;
+}
+.head .check .family .data input{
+    width: 100%;
+    text-align: center;
+    border: none;
+    border-bottom: 0.11px solid gray;
+    padding-bottom: 10px;
+    color: gray;
+    font-size: 14px;
+}
+.head .check .family .data span.decre {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    color: gray;
+    cursor: pointer;
+} 
+.head .check .family .data span.incre {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    color: gray;
+    cursor: pointer;
+} 
+.head .room{
+    background-color: white;
+    padding: 20px 15px; 
+}
+.head .room input{
+    width: 100%;
+    font-size: 12px;
+    padding: 10px 0px;
+    color: grey;
+    opacity: 0.5;
+    border: none;
+    border-bottom: 0.11px solid gray;
+    cursor: pointer;
+}
+.head button {
+    color: white;
+    background-color: #F9AD81;
+    padding: 46px 30px; 
+    border: 1px solid #F9AD81;
+}
+
+
+@media (max-width: 992px){
+    .head button.btn {
+        display: block;
+        width: 100%;
+        padding: 26px 30px; 
+
+    }
+    .head .check{
+        top: 90%;
+    }
+    .head h1{
+        font-size: 58px;
+    }
+}
+@media (max-width: 1200px) and (min-width: 992px){
+    .head .check .family{
+        padding: 22px 5px !important;
+    }
+    .head button.btn {
+        padding: 46px 20px; 
+    }
+
+}

@@ -1,0 +1,22 @@
+.book{
+    padding: 65px 0px;
+    background-color: #F9AD81;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.book p{
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+
+}
+.book button{
+    background-color: black;
+    color: white;
+    padding: 12px 30px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    border: 1px solid #F9AD81;
+    margin-top: 10px;
+    margin-left: 90px;
+
+}

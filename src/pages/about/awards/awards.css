@@ -1,0 +1,43 @@
+.awards{
+    padding: 110px 0px 100px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.awards h2{
+    font-size: 62px;
+    font-weight: 600;
+    margin-bottom: 95px;
+}
+.awards .awards-box{
+    margin-bottom: 35px;
+}
+.awards .awards-box .image{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom:35px;
+}
+.awards .awards-box .image img{
+    margin: auto;
+    display: block;
+}
+.awards .awards-box span{
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.awards .awards-box h3{
+    font-weight: 600;
+}
+.awards .awards-box p{
+     color: lightgrey;
+     font-size: 15px;
+     line-height: 1.7;
+     font-weight: 500;
+}
+.awards .awards-box p.heading{
+    color: grey;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 5px;
+}

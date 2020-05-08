@@ -1,0 +1,176 @@
+.header{
+    background-image: url("/img/hero-bg.jpg");
+    width: 100%;
+    height: 850px;
+    position: relative;
+}
+.header h1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 700;
+}
+.header .check{
+    min-width: 75%;
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.6);
+    padding: 40px 40px 50px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding:auto 50px ;
+
+}
+.header .check h5{
+    margin-bottom: 30px;
+}
+.header .check p{
+    color: black;
+    font-weight: 600;
+}
+
+.header .check .from, 
+.header .check .to
+{
+    position: relative;
+    background-color: white;
+    padding: 20px 15px;
+}
+.header .check .from input,
+.header .check .to input{
+    width: 100%;
+    font-size: 12px;
+    padding: 10px 0px;
+    color: grey;
+    opacity: 0.5;
+    border: none;
+    border-bottom: 0.11px solid gray;
+}
+.header .check input[type="date"]::-webkit-datetime-edit-month-field {
+    padding: 5px;
+}
+input[type="date"]::-webkit-datetime-edit-day-field {
+    margin: 5px
+}
+input[type="date"]::-webkit-datetime-edit-year-field {
+    margin: 5px
+}
+
+.header .check input:focus{
+    outline-color: transparent;
+}
+
+.header .check img{
+    position: absolute;
+    right: 20px;
+    bottom: 58px
+}
+.header .check .family{
+    position: relative;
+    background-color: white;
+    padding: 22px 30px;
+    overflow: hidden;
+}
+.header .check .family .data{
+    float: left;
+    width: 25%;
+    position: relative;
+    
+}
+.header .check .family .data:not(:last-child){
+
+    margin-right: 12.5%;
+}
+.header .check .family .data input{
+    width: 100%;
+    text-align: center;
+    border: none;
+    border-bottom: 0.11px solid gray;
+    padding-bottom: 10px;
+    color: gray;
+    font-size: 14px;
+}
+.header .check .family .data span.decre {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    color: gray;
+    cursor: pointer;
+} 
+.header .check .family .data span.incre {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    color: gray;
+    cursor: pointer;
+} 
+.header .room{
+    background-color: white;
+    padding: 20px 15px; 
+}
+.header .room input{
+    width: 100%;
+    font-size: 12px;
+    padding: 10px 0px;
+    color: grey;
+    opacity: 0.5;
+    border: none;
+    border-bottom: 0.11px solid gray;
+    cursor: pointer;
+}
+.header button.btn {
+    color: white;
+    background-color: #F9AD81;
+    padding: 46px 30px; 
+    border: 1px solid #F9AD81;
+}
+.header select {
+    width: 100%;
+    font-size: 12px;
+    padding: 10px 0px;
+    color: grey;
+    opacity: 0.5;
+    border: none;
+    border-bottom: 0.11px solid gray;
+    cursor: pointer;
+}
+.header .select:focus-within {
+    outline-color: transparent !important;
+}
+.header .select{
+    margin: 12px;
+    color: black;
+    border: none !important;
+}
+
+
+@media (max-width: 992px){
+    .header button.btn {
+        display: block;
+        width: 100%;
+        padding: 26px 30px; 
+
+    }
+    .header .check{
+        top: 90%;
+    }
+    .header h1{
+        font-size: 58px;
+    }
+}
+@media (max-width: 1200px) and (min-width: 992px){
+    .header .check .family{
+        padding: 22px 5px !important;
+    }
+    .header button.btn {
+        padding: 46px 20px; 
+
+    }
+
+}

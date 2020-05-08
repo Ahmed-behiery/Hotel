@@ -1,0 +1,212 @@
+{
+    "guest" : [
+        {
+            "id": 1,
+            "date": "02 / 02 / 2020",
+            "head": "we lovely our stay",
+            "icon": "fas fa-star",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiselit. Vivamus libero mauris, bibendum eget sapien ac, ultrices rhoncus ipsum. Donec nec sapien in urna fermentum ornare.",
+            "img": "/img/author-1.png",
+            "name": "john deo",
+            "statu": "madrid"
+        },
+        {
+            "id": 2,
+            "date": "02 / 02 / 2020",
+            "head": "i will come back again",
+            "icon": "fas fa-star",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiselit. Vivamus libero mauris, bibendum eget sapien ac, ultrices rhoncus ipsum. Donec nec sapien in urna fermentum ornare.",
+            "img": "/img/author-2.png",
+            "name": "maria smith",
+            "statu": "roma"
+        }
+    ],
+    "awards" : [
+        {
+            "id": 1,
+            "img": "/img/about/award-img.png",
+            "year": "2011",
+            "heading": "Best Hotel in Europe",
+            "title": "ELITE HOTEL AWARD",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiselit. Vivamus libero mauris, bibendum eget sapien ac, ultrices rhoncus ipsum. Donec nec sapien in urna."
+            
+        },
+        {
+            "id": 2,
+            "img": "/img/about/award-img.png",
+            "year": "2012",
+            "heading": "Best Services",
+            "title": "ELITE HOTEL AWARD",
+            "body": "Ipsum dolor sit amet, consectetur adipiselit. Vivamus libero mauris, bibendum eget sapien ac, ultrices rhoncus ipsum. Donec nec sapien in urna fermentum ornare."
+            
+        },
+        {
+            "id": 3,
+            "img": "/img/about/award-img.png",
+            "year": "2013",
+            "heading": "Best Hotel Spa",
+            "title": "ELITE HOTEL AWARD",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiselit. Vivamus libero mauris, bibendum eget sapien ac, ultrices rhoncus ipsum. Donec nec sapien in urna."
+            
+        },
+        {
+            "id": 4,
+            "img": "/img/about/award-img.png",
+            "year": "2014",
+            "heading": "Best Luxury Hotel",
+            "title": "ELITE HOTEL AWARD",
+            "body": "Dolor sit amet, consectetur adipiselit. Vivamus libero mauris, bibendum eget sapien ac, ultrices rhoncus ipsum. Donec nec sapien in urna fermentum ornare."
+            
+        },
+        {
+            "id": 5,
+            "img": "/img/about/award-img.png",
+            "year": "2015",
+            "heading": "2nd Place @ Best Hotel",
+            "title": "ELITE HOTEL AWARD",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiselit. Vivamus libero mauris, bibendum eget sapien ac, ultrices rhoncus ipsum. Donec nec sapien in urna."
+            
+        },
+        {
+            "id": 1,
+            "img": "/img/about/award-img.png",
+            "year": "2011",
+            "heading": "Best Hotel in Europe",
+            "title": "ELITE HOTEL AWARD",
+            "body": "Ipsum dolor sit amet, consectetur adipiselit. Vivamus libero mauris, bibendum eget sapien ac, ultrices rhoncus ipsum. Donec nec sapien in urna fermentum ornare."
+            
+        }
+       
+    ],
+    "news" : [
+        {
+            "id": 1,
+            "img": "/img/blog-1.jpg",
+            "date": "APRIL 15, 2019",
+            "head": "Tips to have the perfect holliday",
+            "title": "HOLLIDAY, TRIP, HOTEL, FUN",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+        },
+        {
+            "id": 1,
+            "img": "/img/blog-2.jpg",
+            "date": "APRIL 15, 2019",
+            "head": "10 Places you need to visit this summer",
+            "title": "HOLLIDAY, TRIP, HOTEL, FUN",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+        },
+        {
+            "id": 1,
+            "img": "/img/blog-3.jpg",
+            "date": "APRIL 15, 2019",
+            "head": "The most amazing pools is the world",
+            "title": "HOLLIDAY, TRIP, HOTEL, FUN",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+        }
+    ],
+    "rooms" : [
+        {
+            "id": 1,
+            "img1": "/img/rooms/room-1.jpg",
+            "img2": "/img/rooms/room-2.jpg",
+            "img3": "/img/rooms/room-3.jpg",
+            "title": "A MEMORABLE HOLLIDAY",
+            "head": "Deluxe Suite",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas. Donec in sodales dui, a blandit nunc. Pellentesque id eros venenatis, sollicitudin neque sodales, vehicula nibh. Nam massa odio, porttitor vitae efficitur non, ultricies volutpat tellus."
+        },
+        {
+            "id": 2,
+            "img1": "/img/rooms/room-4.jpg",
+            "img2": "/img/rooms/room-1.jpg",
+            "img3": "/img/rooms/room-2.jpg",
+            "title": "A MEMORABLE HOLLIDAY",
+            "head": "Twin Room With Seaview",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas. Donec in sodales dui, a blandit nunc. Pellentesque id eros venenatis, sollicitudin neque sodales, vehicula nibh. Nam massa odio, porttitor vitae efficitur non, ultricies volutpat tellus."
+        },
+        {
+            "id": 3,
+            "img1": "/img/rooms/room-3.jpg",
+            "img2": "/img/rooms/room-4.jpg",
+            "img3": "/img/rooms/room-1.jpg",
+            "title": "Double Room",
+            "head": "Deluxe Suite",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas. Donec in sodales dui, a blandit nunc. Pellentesque id eros venenatis, sollicitudin neque sodales, vehicula nibh. Nam massa odio, porttitor vitae efficitur non, ultricies volutpat tellus."
+        },
+        {
+            "id": 4,
+            "img1": "/img/rooms/room-2.jpg",
+            "img2": "/img/rooms/room-3.jpg",
+            "img3": "/img/rooms/room-4.jpg",
+            "title": "A MEMORABLE HOLLIDAY",
+            "head": "Twin Room With Seaview",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas. Donec in sodales dui, a blandit nunc. Pellentesque id eros venenatis, sollicitudin neque sodales, vehicula nibh. Nam massa odio, porttitor vitae efficitur non, ultricies volutpat tellus."
+        }
+        
+    ],
+    "services" : [
+        {
+            "id": 1,
+            "img1": "/img/services/service-1.jpg",
+            "icon": "/img/services/service-icon-1.png",
+            "head": "Infinity Pool",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+        },
+        {
+            "id": 2,
+            "img1": "/img/services/service-2.jpg",
+            "icon": "/img/services/service-icon-2.png",
+            "head": "Fitness Area",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+        },
+        {
+            "id": 3,
+            "img1": "/img/services/service-3.jpg",
+            "icon": "/img/services/service-icon-3.png",
+            "head": "Shuttle",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+        },
+        {
+            "id": 4,
+            "img1": "/img/services/service-4.jpg",
+            "icon": "/img/services/service-icon-4.png",
+            "head": "Restaurant",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+        },
+        {
+            "id": 5,
+            "img1": "/img/services/service-5.jpg",
+            "icon": "/img/services/service-icon-5.png",
+            "head": "City Guide",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+        },
+        {
+            "id": 6,
+            "img1": "/img/services/service-6.jpg",
+            "icon": "/img/services/service-icon-6.png",
+            "head": "Day Trips",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+        },
+        {
+            "id": 7,
+            "img1": "/img/services/service-7.jpg",
+            "icon": "/img/services/service-icon-7.png",
+            "head": "Spa & Sauna",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+        },
+        {
+            "id": 8,
+            "img1": "/img/services/service-8.jpg",
+            "icon": "/img/services/service-icon-8.png",
+            "head": "Free Diving",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+        },
+        {
+            "id": 9,
+            "img1": "/img/services/service-9.jpg",
+            "icon": "/img/services/service-icon-9.png",
+            "head": "Private Guide",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+        }
+        
+    ]
+}

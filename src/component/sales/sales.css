@@ -1,0 +1,47 @@
+.sales {
+    padding: 60px 30px 80px;
+}
+.sales h2{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+}
+.sales h2:last-of-type{
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.sales p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #9D9D9D;
+    font-size: 15px;
+    line-height: 1.9;
+    font-weight: 600;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.sales button{
+    background-color: #F9AD81;
+    color: white;
+    padding: 12px 30px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    border: 1px solid #F9AD81;
+    margin-bottom: 40px;
+}
+.sales .image {
+    margin-bottom: 20px;
+    overflow: hidden;
+    width: 100%;
+}
+.sales .image {
+    width: 100%;
+}
+@media (max-width: 767px) {
+    .sales {
+        padding: 110px 30px 80px;
+    }
+    .sales h2{
+        font-size: 35px;
+    }
+    
+}

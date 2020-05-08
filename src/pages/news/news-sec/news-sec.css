@@ -1,0 +1,125 @@
+.new{
+    padding: 220px 0px 100px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.new .news-box {
+    margin-bottom: 80px;
+}
+.new .news-box .img {
+    overflow: hidden;
+    width: 100%;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+.new .news-box .img img{
+    width: 100%;
+    transition: all 0.4s ease-in-out;
+}
+.new .news-box:hover .img img{
+    transform: scale(1.1);
+}
+.new .news-box span{
+    font-size: 14px;
+    color: grey;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+
+}
+.new .news-box h2{
+    font-weight: 600;
+}
+.new .news-box p:first-of-type{
+    color: #F9AD81;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+.new .news-box p:last-of-type{
+    color: gray;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.9;
+}
+.new .data{
+    padding-left: 30px;
+}
+.new .data form input{
+    border: none;
+    border-bottom: 1px solid;
+    padding: 10px 0px;
+    font-weight: 600;
+    width: 70%;
+}
+.new .data form input:focus{
+    outline: none;
+}
+.new .data form{
+    margin-bottom: 50px;
+}
+
+.new .data form button{
+    background-color: #F9AD81;
+    color: white;
+    padding: 11px 25px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid #F9AD81;
+    width: 30%;
+
+}
+.new .data form button:focus-within{
+    outline: none;
+}
+.new .data h3{
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+.new .data ul{
+    margin-bottom: 60px;
+}
+.new .data ul li{
+    margin-bottom: 20px;
+    color: grey;
+    font-weight: 600;
+    font-size: 16px;
+}
+.new .data .reserve{
+    background-image: url("/img/blog-add.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 40px 32px;
+}
+.new .data .reserve h3 {
+    color: white;
+    margin-bottom: 320px;
+    text-align: center;
+}
+.new .data .reserve button {
+    background-color: #F9AD81;
+    color: white;
+    padding: 12px 30px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    border: 1px solid #F9AD81;
+}
+@media (max-width: 992px){
+    .new{
+        padding: 300px 0px 100px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+

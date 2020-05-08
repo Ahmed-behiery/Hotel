@@ -1,0 +1,75 @@
+.contac {
+    padding: 50px 20px;
+    background-color: #242424;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.contac .log p{
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.contac img{
+    color: white;
+    margin-bottom: 35px;
+}
+.contac .subscribe h2{
+    font-size: 24px;
+    color: #ED8A19;
+}
+.contac .subscribe input{
+    margin-top: 60px;
+    /* margin-bottom: 60px; */
+    background-color: #666666;
+    padding: 10px 30px;
+    font-size: 14px;
+    color: white;
+    border: 1px solid #666666;
+    width: 70%;
+}
+.contac .subscribe input:focus{
+    outline: none;
+}
+::-webkit-input-placeholder { 
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .contac .subscribe button{
+      background-color: #ED8A19;
+      color: white;
+      padding: 8px 30px;
+      width: 30%;
+      border: 1px solid #ED8A19;
+
+  }
+  .contac .info h2{
+    font-size: 24px;
+    color: #ED8A19;
+    margin-bottom: 60px;
+}
+.contac .info .media i{
+    color: #ED8A19;
+    line-height: 1.9;
+}
+.contac .info .media p{
+    color: gray;
+    font-weight: 700;
+}
+.contac .info .media p:nth-child(1){
+    margin-bottom: 0px;
+}
+@media (max-width: 992px){
+    .contac h2{
+        margin-bottom: 10px;
+
+    }
+    .contac .subscribe input{
+        margin-top: 10px;
+    }    
+    .contac .subscribe {
+        margin-bottom: 60px;
+    }
+    .contac .info h2{
+        margin-bottom: 20px;
+    }
+}

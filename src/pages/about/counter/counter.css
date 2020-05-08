@@ -1,0 +1,41 @@
+.counter{
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-image: url("/img/about/milestone-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 150px 30px;
+}
+.counter .count{
+    color: #F9AD81;
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: -25px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+}
+.counter  span{
+    color: #F9AD81;
+    font-size: 70px;
+    font-weight: 600;
+    margin: 0px 20px 0px -15px ;
+    margin-top: -25px;
+
+}
+
+.counter .media{
+    margin-top: 0px;
+}
+.counter .media h5{
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+.counter .media p{
+    color: grey;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}

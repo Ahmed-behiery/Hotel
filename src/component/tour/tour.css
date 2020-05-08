@@ -1,0 +1,62 @@
+.tour{
+    position: relative;
+}
+.tour  .suit,
+.tour .pool
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px -15px;
+    height: 800px;
+    padding: 110px;
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+.tour .suit {
+    background-image: url("/img/faci-1.jpg");
+    height: 100%;
+
+}
+.tour  .pool{
+    background-image: url("/img/faci-2.jpg");
+    height: 100%;
+}
+.tour .tour-box h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.tour .tour-box p.heading{
+    letter-spacing: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 370px;
+}
+.tour .pool p.heading{
+    margin-bottom: 450px;
+}
+
+.tour .tour-box button{
+    background-color: transparent;
+    color: white;
+    padding: 12px 30px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    border: 3px solid white;
+    /* position: absolute;
+    bottom: 70px; */
+
+}
+
+.tour .tour-box .advan .icon{
+    display: inline-block;
+    text-align: center;
+    margin-right: 40px;
+}
+.tour .tour-box .advan .icon p{
+    margin-top: 12px;
+
+}

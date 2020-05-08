@@ -1,0 +1,33 @@
+.footer{
+    background-color: #171717;
+    padding: 10px 10px 10px;
+    overflow: hidden;
+
+}
+.footer .list ul li a{
+    font-size: 12px;
+}
+.footer .navbar-expand-lg{
+    background-color: #171717;
+}
+.footer p{
+    margin-top: 8px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+.footer p i{
+    color: #F9AD81;
+}
+/* .footer .boxx ul {
+    float: right;
+    margin-left: 50px;
+} */
+.footer .list ul li a.active::after{
+    opacity: 0;
+}
+.footer .list ul li a:hover::after{
+    opacity: 1;
+}
+
